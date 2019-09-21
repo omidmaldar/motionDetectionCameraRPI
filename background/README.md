@@ -14,17 +14,16 @@
 # Install USB Webcam 
 * sudo apt install rpi-update
 * sudo rpi-update (you may skip this step, pay full attention to the warning it shows)
-* sudo apt install fswebcam 
-Link: [Motion Detector](https://www.instructables.com/id/Raspberry-Pi-Motion-Detector-and-Alert-System/)
+* sudo apt install fswebcam  
 
 # Take a photo
 * fswebcam test.jpg
 
-# View the image
+# View the photo
 * install `ImageMagic` by `sudo apt install imagemagick`
 * display test.jpg
 
-# Installing Motion 
+# Installing Motion
 * sudo apt install motion
 
 # Configuring Motion for streaming over Internet
@@ -43,7 +42,7 @@ Link: [Motion Detector](https://www.instructables.com/id/Raspberry-Pi-Motion-Det
   * snd-bcm2835
   * bcm2835-v4l2
   
-# control Motion Service
+# Controlling Motion Service
 * sudo service motion start
 * sudo service motion status
 * sudo service motion stop
@@ -54,3 +53,8 @@ Link: [Motion Detector](https://www.instructables.com/id/Raspberry-Pi-Motion-Det
 # Watch the stream from your laptop
 * connect to http://localhost:8081 
 
+# Links: 
+* [Motion Detector](https://www.instructables.com/id/Raspberry-Pi-Motion-Detector-and-Alert-System/)
+* [Motion](https://motion-project.github.io/) 
+* [USB Camera for Motion](http://www.richardmudhar.com/blog/2015/02/raspberry-pi-camera-and-motion-out-of-the-box-sparrowcam/)
+* [Standard USB Camera for Raspberry Pi](https://www.raspberrypi.org/documentation/usage/webcams/)

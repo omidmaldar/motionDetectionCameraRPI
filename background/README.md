@@ -6,3 +6,23 @@
 * **ETHR** `ip addr show eth0 | grep "inet\b" | awk '{print $2}' | cut -d/ -f1`
 * **WLAN** `ip addr show eth0 | grep "inet\b" | awk '{print $2}' | cut -d/ -f1`
 
+# Preparation
+* sudo apt update
+* sudo apt upgrade
+* sudo apt autoremove
+
+# Install USB Webcam 
+* sudo apt install rpi-update
+* sudo rpi-update
+* sudo apt install fswebcam 
+Link: [Motion Detector](https://www.instructables.com/id/Raspberry-Pi-Motion-Detector-and-Alert-System/)
+
+# Take a photo
+* fswebcam test.jpg
+
+# View the image
+* install `ImageMagic` by `sudo apt install imagemagick`
+* display test.jpg
+
+
+ 
